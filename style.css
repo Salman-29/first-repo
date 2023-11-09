@@ -1,0 +1,36 @@
+body {
+    margin: 5rem;
+    background: antiquewhite;
+  }
+  img {
+    position: relative;
+    width: 600px;
+    height: 500px;
+  }
+  .container {
+    position: absolute;
+    margin-left:10%;
+  }
+  span {
+    position: absolute;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 45%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.736);
+    padding: 10px 20px;
+    /* border-radius: 0 10px 10px 0px; */
+  }
+  .prev {
+    left: 0px;
+  }
+  .next {
+    right: 0px;
+  }
+  span:hover{
+      transition: .5s;
+      color: aliceblue;
+      background: rgba(0, 0, 0, 0.393);
+  }
+  
