@@ -1,1 +1,1 @@
-# this a image slider 
+## this is a image slider 
